@@ -1,5 +1,11 @@
 spring:
   profiles:
     active: local
+restClients:
+  movies:
+    info:
+      url: http://localhost:8080/v1/movieinfos
+    reviews:
+      url: http://localhost:8081/v1/reviews
 server:
   port: 8082
